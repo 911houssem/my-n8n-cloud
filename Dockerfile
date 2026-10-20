@@ -3,4 +3,4 @@ FROM n8nio/n8n:latest
 ENV PORT=10000
 EXPOSE 10000
 
-CMD ["n8n", "start"]
+CMD ["node", "/usr/local/bin/n8n", "start"]
